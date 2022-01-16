@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+
+
+  margin-top: 70px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Raleway";
+  font-weight: 300;
+  color: #333;
+}
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+.centered {
+  text-align: center;
+}
+a {
+  color: #f85c37;
+}
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+.navbar {
+  font-weight: 800;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-inverse {
+  background: #2d2d2d;
+  border-color: #2d2d2d;
+}
+.navbar-inverse .navbar-brand {
+  color: #999;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+ #headerwrap {
+  background: url(../images/GE75-Raider_001.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin-top: -20px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 708px;
+  width: 100%;
+
+
+}
+#headerwrap h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+}
+#headerwrap h2 {
+  color: white;
+  font-size: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+img {
+  width: 250px;
+}
+.w {
+  padding top: 35px;
+}
+.w h4 {
+  font-size: 40px;
+}
+#dg {
+  background: #e0e0e0;
+  padding-top:70px;
+  padding-bottom:70px;
+  text-align: center;
+}
+#dg h4 {
+  font-size: 40px;
+}
+.tilt {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition:all 0.5s ease;
+  -ms-transition:all 0.5s ease;
+  transition:all 0.5s ease;
+}
+.tilt:hover {
+  -webkit-transition: rotate(-10deg);
+  -moz-transition: rotate(-10deg);
+  -o-transition: rotate(-10deg);
+  -ms-transition: rotate(-10deg);
+  transition: rotate(-10deg);
+}
+#r {
+  background: black;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+#r h4 {
+  color: white;
+  font-size: 45px;
+}
+#r p {
+  color: white;
+}
+#links {
+  background: black;
+  padding-top: 30px;
+  padding-bottom: 20px
+}
+#links i {
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+}
+#links i:hover {
+  color: #ff7878;
+}
